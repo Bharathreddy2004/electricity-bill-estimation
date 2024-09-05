@@ -864,7 +864,7 @@ elif selected_option == "POWER SOURCES":
         bar.set_color('grey')
 
   # Streamlit app
-  st.set_option('deprecation.showPyplotGlobalUse', False)  # To avoid warning
+  #st.set_option('deprecation.showPyplotGlobalUse', False)  # To avoid warningmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
   st.title('Electricity Generation Sources in India')
 
   # Display buttons side by side with red style
