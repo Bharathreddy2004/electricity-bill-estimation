@@ -1,18 +1,7 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
-st.title("hello")
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            iframe {
-                    border: none;
-            }
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+
 #st.markdown(hide_st_style, unsafe_allow_html=True)
 # power consumption per hour of appliances (in watts)
 COMPUTER_POWER_PER_HOUR = 250
