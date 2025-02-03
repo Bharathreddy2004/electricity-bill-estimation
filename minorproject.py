@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
-st.title("IARE Student Tools")
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
